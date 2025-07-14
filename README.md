@@ -41,7 +41,7 @@ This guide explains how to set up and run the project using Docker and Docker Co
 3. **Build and Run the Application**
    Run the following command to build and start the services:
    ```bash
-   docker-compose up --build
+   docker compose up --build
    ```
    - The `--build` flag ensures the web service image is built from the `Dockerfile`.
    - This starts the PostgreSQL database (`db`) and the web application (`web`).
@@ -54,7 +54,7 @@ This guide explains how to set up and run the project using Docker and Docker Co
    ```
 
 5. **Stopping the Application**
-   To stop the running containers, press `Ctrl+C` in the terminal where `docker-compose up` is running, or run:
+   To stop the running containers, press `Ctrl+C` in the terminal where `docker compose up` is running, or run:
    ```bash
    docker-compose down
    ```
