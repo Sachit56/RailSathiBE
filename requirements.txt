@@ -45,6 +45,7 @@ pydantic_core==2.33.2
 python-dateutil==2.8.2
 python-dotenv==1.1.0
 python-multipart==0.0.6
+pytz
 PyYAML==6.0.2
 requests==2.32.4
 rsa==4.9.1
