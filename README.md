@@ -56,6 +56,6 @@ This guide explains how to set up and run the project using Docker and Docker Co
 5. **Stopping the Application**
    To stop the running containers, press `Ctrl+C` in the terminal where `docker compose up` is running, or run:
    ```bash
-   docker-compose down
+   docker compose down
    ```
    This stops and removes the containers but retains the database data unless volumes are explicitly cleared.
